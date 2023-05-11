@@ -2,6 +2,14 @@
 /* ------------------------------------------ */
 /* ------------------------------------------ */
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+
 body {
   background-color: #2d2d2d;
   color: #f5f5f5;
@@ -204,3 +212,66 @@ img {
   width: 14rem;
   margin: 0 10px 0 0;
 }
+
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+
+div.sobrediv {
+  display: flex;
+  padding: 1rem;
+}
+
+article.sobrearticle {
+  display: block;
+  padding: 1rem;
+  width: 40rem;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.sobreimg {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  border-style: solid;
+  border-width: 2px;
+  border-image: linear-gradient(
+      90deg,
+      rgb(63, 94, 251, 1) 0%,
+      rgb(252, 70, 107, 1) 100%
+    )
+    1;
+}
+
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+
+div.programdiv {
+  display: flex;
+  padding: 1rem;
+}
+
+article.programarticle {
+  display: block;
+  padding: 1rem;
+  width: 40rem;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.programimg {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25rem;
+  padding: 1rem;
+}
+
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */

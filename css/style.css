@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  background-image: url(/imgs/elementos/bg.jpg);
+  background-image: url("/imgs/elementos/bg.jpg");
   padding: 11rem;
   background-size: cover;
 }

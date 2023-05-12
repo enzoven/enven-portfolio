@@ -421,7 +421,7 @@ img.biolabimg {
 div.conteudodiv {
   display: flex;
   text-align: center;
-  padding: 5rem;
+  padding: 1rem;
 }
 
 h2.conteudotitle {
@@ -437,8 +437,8 @@ h2.conteudotitle {
 article.conteudoarticle {
   display: block;
   padding: 1rem;
-  width: 25rem;
-  height: 25rem;
+  width: 24rem;
+  height: 23rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -564,8 +564,10 @@ article.content {
 
 img.content {
   display: flex;
-  width: 32rem;
-  height: 32rem;
+  width: 35rem;
+  height: 35rem;
+  margin-left: 3rem;
+  margin-top: -5rem;
   padding-bottom: 1rem;
 }
 

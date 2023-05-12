@@ -418,6 +418,56 @@ img.biolabimg {
 /* ------------------------------------------ */
 /* ------------------------------------------ */
 
+div.pizy {
+  display: flex;
+  padding: 2.5rem;
+}
+
+article.pizy {
+  display: block;
+  padding: 1rem;
+  width: 40rem;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.pizy {
+  font-family: "Roboto", sans-serif;
+  color: #f5f5f5;
+  font-size: 24px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+img.pizy {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22rem;
+  height: 22em;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+
+a.pizylink {
+  font-family: "Roboto", sans-serif;
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 0 0 10px 0;
+}
+
+div.pizy {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+
 div.conteudodiv {
   display: flex;
   text-align: center;

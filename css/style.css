@@ -107,13 +107,13 @@ li {
 .progress-container {
   margin-left: auto;
   margin-right: auto;
-  width: 55%;
-  height: 1px;
-  background: #ccc;
+  width: 65%;
+  height: 1.5px;
+  background: #4d4d4d;
 }
 
 .progress-bar {
-  height: 1px;
+  height: 1.5px;
   background: #4c3474;
   width: 0%;
 }

@@ -26,6 +26,7 @@ header {
 }
 
 h1 {
+  filter: drop-shadow(#0000009a 0px 3px 6px);
   text-align: center;
   text-transform: uppercase;
   margin: 0;
@@ -254,7 +255,7 @@ img.sobreimg {
   margin-right: auto;
   width: 20rem;
   border-radius: 10rem;
-  filter: drop-shadow(rgba(157, 48, 211, 1) 4px 4px 40px);
+  filter: drop-shadow(rgba(157, 48, 211, 1) 4px 4px 20px);
   transition: 0.5s;
 }
 
@@ -274,7 +275,7 @@ img.sobreimg {
 }
 .sobreimg:hover {
   background-position: 0% 0%;
-  filter: drop-shadow(#0066ff 4px 4px 60px);
+  filter: drop-shadow(#0066ff 4px 4px 25px);
 }
 
 /* ------------------------------------------ */
@@ -673,6 +674,10 @@ svg.contato {
   width: 5rem;
   padding: 1rem;
 }
+
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
 
 /* ------------------------------------------ */
 /* ------------------------------------------ */

@@ -254,7 +254,7 @@ img.sobreimg {
   margin-right: auto;
   width: 20rem;
   border-radius: 10rem;
-  filter: drop-shadow(rgba(157, 48, 211, 1) 4px 4px 20px);
+  filter: drop-shadow(#4c3474 4px 4px 40px);
   transition: 0.5s;
 }
 
@@ -274,7 +274,7 @@ img.sobreimg {
 }
 .sobreimg:hover {
   background-position: 0% 0%;
-  filter: drop-shadow(#0066ff 4px 4px 30px);
+  filter: drop-shadow(#4c3474 4px 4px 60px);
 }
 
 /* ------------------------------------------ */

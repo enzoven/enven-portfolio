@@ -254,6 +254,8 @@ img.sobreimg {
   margin-right: auto;
   width: 20rem;
   border-radius: 10rem;
+  filter: drop-shadow(rgba(157, 48, 211, 1) 4px 4px 40px);
+  transition: 0.5s;
 }
 
 .sobreimg {
@@ -272,6 +274,7 @@ img.sobreimg {
 }
 .sobreimg:hover {
   background-position: 0% 0%;
+  filter: drop-shadow(#0066ff 4px 4px 60px);
 }
 
 /* ------------------------------------------ */
@@ -299,6 +302,13 @@ img.programimg {
   width: 25rem;
   height: auto;
   padding: 1rem;
+  filter: drop-shadow(#4c3474 4px 4px 60px);
+  transition: 0.5s;
+}
+
+.programimg:hover {
+  filter: drop-shadow(#4c3474 4px 4px 100px);
+  transition: 0.5s;
 }
 
 /* ------------------------------------------ */
@@ -326,6 +336,13 @@ img.hobbiesimg {
   width: 30rem;
   height: 30rem;
   padding: 1rem;
+  filter: drop-shadow(#4c3474 4px 4px 60px);
+  transition: 0.5s;
+}
+
+.hobbiesimg:hover {
+  filter: drop-shadow(#4c3474 4px 4px 100px);
+  transition: 0.5s;
 }
 
 /* ------------------------------------------ */
@@ -373,6 +390,13 @@ img.hortaimg {
   width: 30rem;
   height: 30rem;
   padding: 1rem;
+  filter: drop-shadow(#4c3474 4px 4px 60px);
+  transition: 0.5s;
+}
+
+.hortaimg:hover {
+  filter: drop-shadow(#4c3474 4px 4px 100px);
+  transition: 0.5s;
 }
 
 a.leiamais {
@@ -619,6 +643,13 @@ img.content {
   margin-left: 3rem;
   margin-top: -5rem;
   padding-bottom: 1rem;
+  filter: drop-shadow(#4c3474 4px 4px 60px);
+  transition: 0.5s;
+}
+
+.content:hover {
+  filter: drop-shadow(#4c3474 4px 4px 100px);
+  transition: 0.5s;
 }
 
 svg.conteudosvg {

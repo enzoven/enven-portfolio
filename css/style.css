@@ -302,12 +302,12 @@ img.programimg {
   width: 25rem;
   height: auto;
   padding: 1rem;
-  filter: drop-shadow(#4c3474 4px 4px 60px);
+  filter: drop-shadow(#4c3474 4px 4px 25px);
   transition: 0.5s;
 }
 
 .programimg:hover {
-  filter: drop-shadow(#4c3474 4px 4px 100px);
+  filter: drop-shadow(#4c3474 4px 4px 40px);
   transition: 0.5s;
 }
 
@@ -336,12 +336,12 @@ img.hobbiesimg {
   width: 30rem;
   height: 30rem;
   padding: 1rem;
-  filter: drop-shadow(#4c3474 4px 4px 60px);
+  filter: drop-shadow(#4c3474 4px 4px 25px);
   transition: 0.5s;
 }
 
 .hobbiesimg:hover {
-  filter: drop-shadow(#4c3474 4px 4px 100px);
+  filter: drop-shadow(#4c3474 4px 4px 40px);
   transition: 0.5s;
 }
 
@@ -390,12 +390,12 @@ img.hortaimg {
   width: 30rem;
   height: 30rem;
   padding: 1rem;
-  filter: drop-shadow(#4c3474 4px 4px 60px);
+  filter: drop-shadow(#4c3474 4px 4px 25px);
   transition: 0.5s;
 }
 
 .hortaimg:hover {
-  filter: drop-shadow(#4c3474 4px 4px 100px);
+  filter: drop-shadow(#4c3474 4px 4px 40px);
   transition: 0.5s;
 }
 
@@ -643,12 +643,12 @@ img.content {
   margin-left: 3rem;
   margin-top: -5rem;
   padding-bottom: 1rem;
-  filter: drop-shadow(#4c3474 4px 4px 60px);
+  filter: drop-shadow(#4c3474 4px 4px 25px);
   transition: 0.5s;
 }
 
 .content:hover {
-  filter: drop-shadow(#4c3474 4px 4px 100px);
+  filter: drop-shadow(#4c3474 4px 4px 40px);
   transition: 0.5s;
 }
 
@@ -673,10 +673,6 @@ svg.contato {
   width: 5rem;
   padding: 1rem;
 }
-
-/* ------------------------------------------ */
-/* ------------------------------------------ */
-/* ------------------------------------------ */
 
 /* ------------------------------------------ */
 /* ------------------------------------------ */

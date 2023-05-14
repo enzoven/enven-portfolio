@@ -275,7 +275,7 @@ img.sobreimg {
 }
 .sobreimg:hover {
   background-position: 0% 0%;
-  filter: drop-shadow(#0066ff 4px 4px 25px);
+  filter: drop-shadow(#0066ff 4px 4px 30px);
 }
 
 /* ------------------------------------------ */

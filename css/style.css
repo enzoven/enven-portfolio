@@ -104,6 +104,20 @@ li {
   padding: 0.5rem;
 }
 
+.progress-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  height: 1px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 1px;
+  background: #4c3474;
+  width: 0%;
+}
+
 /* ------------------------------------------ */
 /* ------------------------------------------ */
 /* ------------------------------------------ */
@@ -136,6 +150,8 @@ footer {
   display: flex;
   padding: 1rem;
   flex-direction: column;
+  font-size: 1.1rem;
+  box-shadow: black 4px 4px 8px;
 }
 
 footer div {

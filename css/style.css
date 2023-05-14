@@ -26,7 +26,6 @@ header {
 }
 
 h1 {
-  filter: drop-shadow(#0000009a 0px 3px 6px);
   text-align: center;
   text-transform: uppercase;
   margin: 0;

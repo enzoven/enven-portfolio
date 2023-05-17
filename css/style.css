@@ -705,7 +705,7 @@ svg.conteudosvg {
 div.contato {
   display: flex;
   justify-content: center;
-  padding: 5rem;
+  padding: 1rem;
 }
 
 article.contato {

@@ -18,3 +18,9 @@ function myFunction() {
 /* ------------------------------------------ */
 /* ------------------------------------------ */
 /* ------------------------------------------ */
+
+var actualYear = new Date().getFullYear();
+
+var actualYearSpan = document.querySelector(".actual-year");
+
+actualYearSpan.innerText = actualYear;

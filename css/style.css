@@ -714,12 +714,18 @@ div.contato {
   padding: 1rem;
 }
 
+article.contato:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.2);
+}
+
 article.contato {
   display: block;
   padding: 1rem;
   width: 12em;
   height: 12rem;
   margin: 2rem;
+  transition: all 0.5s ease-in-out;
 }
 
 svg.contato {
@@ -730,14 +736,7 @@ svg.contato {
 p.contato {
   text-align: center;
   padding: 1rem;
-  font-size: 1rem;
-  line-height: 0;
-}
-
-p.email {
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.5rem;
+  font-size: 1.2rem;
   line-height: 0;
 }
 

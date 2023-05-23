@@ -93,8 +93,7 @@ h3 {
 
 nav {
   background-color: #1e1e1e;
-  padding: 0rem;
-  box-shadow: black 4px 4px 8px;
+  box-shadow: black 2px 2px 6px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -103,7 +102,7 @@ nav {
 ul {
   list-style: none;
   margin: 0;
-  padding: 5px;
+  padding: px;
   display: flex;
   justify-content: center;
 }
@@ -281,7 +280,9 @@ img {
 
 div.sobrediv {
   display: flex;
-  padding: 1rem;
+  justify-content: center;
+  padding: 5rem;
+  gap: 5rem;
 }
 
 article.sobrearticle {
@@ -290,36 +291,27 @@ article.sobrearticle {
   width: 40rem;
   height: auto;
   text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 img.sobreimg {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   width: 20rem;
-  border-radius: 10rem;
-  filter: drop-shadow(#4c3474 4px 4px 60px);
+  border-radius: 3rem;
   transition: 0.5s;
 }
 
 .sobreimg {
-  transform: translate(auto);
-  padding: 5px;
   background: linear-gradient(
     135deg,
-    rgba(63, 94, 251, 1),
-    rgba(157, 48, 211, 1) 49%,
-    rgba(255, 0, 170, 1) 100%,
+    #7347bb 49%,
+    #56348b 100%,
     transparent 50%
   );
-  background-size: 250%;
+  padding: 0.3rem;
   background-position: 100% 100%;
-  transition: background 0.5s;
 }
+
 .sobreimg:hover {
-  background-position: 0% 0%;
   filter: drop-shadow(#4c3474 4px 4px 100px);
 }
 
@@ -329,7 +321,9 @@ img.sobreimg {
 
 div.programdiv {
   display: flex;
-  padding: 4rem;
+  justify-content: center;
+  padding: 5rem;
+  gap: 5rem;
 }
 
 article.programarticle {
@@ -337,14 +331,10 @@ article.programarticle {
   padding: 1rem;
   width: 40rem;
   text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 img.programimg {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   width: 25rem;
   height: auto;
   padding: 1rem;
@@ -363,7 +353,9 @@ img.programimg {
 
 div.hobbiesdiv {
   display: flex;
-  padding: 1rem;
+  justify-content: center;
+  padding: 5rem;
+  gap: 5rem;
 }
 
 article.hobbiesarticle {
@@ -371,14 +363,10 @@ article.hobbiesarticle {
   padding: 1rem;
   width: 40rem;
   text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 img.hobbiesimg {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   width: 30rem;
   height: 30rem;
   padding: 1rem;
@@ -419,7 +407,9 @@ a.projetohorta {
 
 div.projetosdiv {
   display: flex;
-  padding: 2.5rem;
+  justify-content: center;
+  padding: 5rem;
+  gap: 5rem;
 }
 
 article.projetosarticle {
@@ -427,22 +417,14 @@ article.projetosarticle {
   padding: 1rem;
   width: 40rem;
   text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 img.hortaimg {
   display: flex;
-  width: 30rem;
-  height: 30rem;
+  width: 22rem;
+  height: 22em;
   padding: 1rem;
-  filter: drop-shadow(#4c3474 4px 4px 60px);
-  transition: 0.5s;
-}
-
-.hortaimg:hover {
-  filter: drop-shadow(#4c3474 4px 4px 100px);
-  transition: 0.5s;
+  border-radius: 3rem;
 }
 
 a.leiamais {
@@ -453,7 +435,7 @@ a.leiamais {
 
 div.projetostitle {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 /* ------------------------------------------ */
@@ -462,7 +444,9 @@ div.projetostitle {
 
 div.biolabdiv {
   display: flex;
-  padding: 1rem;
+  justify-content: center;
+  gap: 5rem;
+  padding: 5rem;
 }
 
 article.biolabarticle {
@@ -470,14 +454,10 @@ article.biolabarticle {
   padding: 1rem;
   width: 40rem;
   text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 img.biolabimg {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   width: 22rem;
   height: 22em;
   padding: 1rem;
@@ -490,7 +470,9 @@ img.biolabimg {
 
 div.pizy {
   display: flex;
-  padding: 2.5rem;
+  justify-content: center;
+  gap: 5rem;
+  padding: 5rem;
 }
 
 article.pizy {
@@ -498,8 +480,6 @@ article.pizy {
   padding: 1rem;
   width: 40rem;
   text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 a.pizy {
@@ -513,8 +493,6 @@ a.pizy {
 
 img.pizy {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   width: 22rem;
   height: 22em;
   padding: 1rem;
@@ -540,6 +518,7 @@ div.pizy {
 
 div.conteudodiv {
   display: flex;
+  justify-content: center;
   text-align: center;
   padding: 1rem;
 }
@@ -555,12 +534,15 @@ h2.conteudotitle {
 }
 
 article.conteudoarticle {
-  display: block;
   padding: 1rem;
-  width: 24rem;
-  height: 23rem;
-  margin-left: auto;
-  margin-right: auto;
+  width: 18rem;
+  height: 17rem;
+  transition: all 0.5s ease-in-out;
+}
+
+article.conteudoarticle:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05);
 }
 
 a.content {
@@ -673,21 +655,10 @@ div.content {
   padding: 5rem;
 }
 
-article.content {
-  display: block;
-  padding: 1rem;
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 img.content {
-  display: flex;
-  width: 35rem;
-  height: 35rem;
-  margin-left: 3rem;
-  margin-top: -5rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
+  width: 23rem;
+  height: 23rem;
   filter: drop-shadow(#4c3474 4px 4px 60px);
   transition: 0.5s;
 }

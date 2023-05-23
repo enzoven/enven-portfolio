@@ -108,9 +108,9 @@ ul {
 }
 
 ul.lista {
-  list-style: circle;
+  list-style: outside;
   margin: 0;
-  padding: 5px;
+  padding: 1px;
   display: block;
   justify-content: left;
 }
@@ -139,7 +139,7 @@ li {
 /* ------------------------------------------ */
 
 main {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 article {
@@ -355,7 +355,7 @@ div.hobbiesdiv {
   display: flex;
   justify-content: center;
   padding: 5rem;
-  gap: 5rem;
+  gap: 2rem;
 }
 
 article.hobbiesarticle {
@@ -367,8 +367,8 @@ article.hobbiesarticle {
 
 img.hobbiesimg {
   display: flex;
-  width: 30rem;
-  height: 30rem;
+  width: 28rem;
+  height: 28rem;
   padding: 1rem;
   filter: drop-shadow(#4c3474 4px 4px 60px);
   transition: 0.5s;

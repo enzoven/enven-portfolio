@@ -296,9 +296,9 @@ article.sobrearticle {
 }
 
 img.sobreimg {
-  display: flex;
+  margin-left: 5rem;
   width: 20rem;
-  border-radius: 3rem;
+  border-radius: 10rem;
   transition: 0.5s;
 }
 

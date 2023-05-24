@@ -32,8 +32,10 @@ body {
 }
 
 header {
-  background-image: url("../imgs/elementos/bg.jpg");
-  padding: 11rem;
+  display: flex;
+  justify-content: center;
+  background-image: url("../imgs/elementos/bg.png");
+  padding: 8rem;
   background-size: cover;
 }
 
@@ -600,16 +602,13 @@ a.fatec {
 .container {
   display: grid;
   place-items: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .text {
-  background: rgb(63, 94, 251);
   background: linear-gradient(
     90deg,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(255, 0, 170, 1) 100%
+    rgb(255, 255, 255) 0%,
+    rgb(255, 255, 255) 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -625,8 +624,7 @@ a.fatec {
   font-family: monospace;
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
-  font-size: 3rem;
-
+  font-size: 2.8rem;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
